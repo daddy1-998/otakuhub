@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face{
+    font-family: "NIRVANA";
+   src: url("./fonts/NIRVANA.ttf");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face{
+    font-family: "Poppins";
+   src: url("./fonts/Poppins.ttf");
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+.calcHeight{
+    height: calc(100dvh - 70px);
+  }
+
